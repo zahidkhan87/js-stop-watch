@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>runnur.me</title>
+	<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script language="javascript" src="stop-watch.js"></script>
+	<script language="javascript" type="text/javascript">
+		$(document).ready(function() {
+			stopWatch.init();		
+		});
+	</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.8, maximum-scale=1.8">
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="myForm" class="form"> 
+    <div class="clear">
+        <a href="#" id="start" class="start button"><span>START</span></a>
+        <a href="#" id="split" class="split button"><span>Split</span></a>
+    </div>
+    <div class="clear">
+        <a href="#" id="stop" class="stop button"><span>STOP</span></a>
+        <a href="#" id="clear" class="clear button"><span>CLEAR</span></a>
+    </div>
+    <div class="clear">
+    	<input id="clock" name="clock" class="clock" value="0.00"></input>    
+    </div>
+    <div class="clear">
+        <span id="splits"></span>
+    </div>
+</form>
+</body>
+</html>

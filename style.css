@@ -1,0 +1,42 @@
+div.clear {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+}
+
+a.button {
+    background: transparent url('a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px;
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+    width: 100px;
+    text-align: center;
+}
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none;
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px;
+}
+
+.clock {
+    font-size: 14px;
+    width: 135px;
+}
